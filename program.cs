@@ -1,4 +1,9 @@
-Random dice = new Random();
+using System
+        internal class Program1
+{
+    private static void Main(string[] args)
+    {
+            Random dice = new Random();
         Console.WriteLine("how many kinds of dice are there?");
         int dicen = Convert.ToInt16(Console.ReadLine());
         int ogdicen = dicen;
@@ -130,3 +135,5 @@ Random dice = new Random();
                  Console.WriteLine("you rolled a total of " + totals[listspot] + " out of your " + numdice[listspot] + "d" + sides[listspot] + " and an average of " + averages[listspot]);
                         listspot++;
             }
+    }
+        }
